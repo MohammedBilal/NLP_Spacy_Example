@@ -1,0 +1,64 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.1.3,<3.2.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"8bda39f08",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "textcat":[
+      "positive",
+      "negative"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "textcat"
+  ],
+  "components":[
+    "tok2vec",
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.7779536206,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.78,
+    "cats_micro_r":0.78,
+    "cats_micro_f":0.78,
+    "cats_macro_p":0.7800906742,
+    "cats_macro_r":0.7770651493,
+    "cats_macro_f":0.7779536206,
+    "cats_macro_auc":0.8527591583,
+    "cats_f_per_type":{
+      "positive":{
+        "p":0.7793594306,
+        "r":0.8202247191,
+        "f":0.799270073
+      },
+      "negative":{
+        "p":0.7808219178,
+        "r":0.7339055794,
+        "f":0.7566371681
+      }
+    },
+    "cats_macro_auc_per_type":0.0,
+    "tok2vec_loss":0.0,
+    "textcat_loss":0.0069441525
+  }
+}
